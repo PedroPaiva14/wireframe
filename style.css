@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    background-color: #F2789F;
+    padding-top: 30px;
+}
+ 
+header{
+    background-color: #FEE3EC;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+ 
+#image{
+    margin-top: 25px;
+    margin-left: 15px;
+    float: left;
+    width: 120px;
+    height: 150px;
+    background-color: #F9C5D5;
+    border-radius: 4px;
+}
+ 
+#menu-principal{
+    height: 35px;
+    width: 550px;
+    float: right;
+    margin: 25px 15px 0 0 ;
+    background-color: #F9C5D5;
+    border-radius: 4px;
+}
+ 
+#juncao{
+    /* background-color: #FBA1A1; */
+    width: 70%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 15px ;
+}
+ 
+#esquerda1 ,#direita1{
+    background-color: #FEE3EC;
+    height: 100%;
+    width: 546px;
+    border-radius: 4px;
+}
+ 
+#esquerda1,#esquerda2{
+    float: left;
+    border-radius: 4px;
+}
+ 
+#direita1,#direita2{
+    float:right;
+    display: inline;
+    border-radius: 4px;
+}
+ 
+main{
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: #F2789F;
+    width: 70%;
+    height: 550px;
+    display: flex;
+    border-radius: 4px;
+}
+ 
+#esquerda2 , #direita2{
+    background-color: #FEE3EC;
+    height: 550px;
+    width: 25%;
+    border-radius: 4px;
+}
+ 
+#esquerda2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+ 
+.quadrado-esquerdo{
+    background-color: #F9C5D5;
+    height: 260px;
+    width: 260px;
+    /* margin-top: 10px;
+    margin-left: 18px; */
+    border-radius: 4px;
+}
+ 
+#central{
+    background-color: #FEE3EC;
+    height: 550px;
+    width: 47%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 4px;
+}
+ 
+.quadrado-meio{
+    height: 150px;
+    width: 47%;
+    background-color: #F9C5D5;
+    /* margin-top: 10px; */
+    border-radius: 4px;
+}
+
+#retangulo-meio{
+    height: 150px;
+    width: 96%;
+    background-color: #F9C5D5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+ 
+footer{
+    width: 70%;
+    height: 100px;
+    background-color: #FEE3EC;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    border-radius: 4px;
+}
+
